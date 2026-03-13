@@ -1,6 +1,8 @@
 # cli-everything
 
-> **Acknowledgment**: This project is inspired by and builds upon [cli-anything](https://github.com/anthropics/cli-anything) by Anthropic, which generates CLI interfaces for open-source GUI applications. cli-everything extends the same philosophy to closed-source websites. Generated packages share the `cli_anything.*` namespace convention via PEP 420.
+📖 [中文文档](README_CN.md)
+
+> **Acknowledgment**: This project is inspired by and builds upon [CLI-Anything](https://github.com/HKUDS/CLI-Anything) by HKU, which generates CLI interfaces for open-source GUI applications. cli-everything extends the same philosophy to closed-source websites. Generated packages share the `cli_anything.*` namespace convention via PEP 420.
 
 A Claude Code plugin that reverse-engineers closed-source website APIs and generates CLI harnesses.
 
@@ -153,8 +155,6 @@ python scripts/chrome_recorder.py --url https://example.com/ --user-data-dir ~/c
 | Analysis | AST, grep, source reading | CDP recording, JS analysis, param tracing |
 | Backend | Real software CLI | HTTP API (requests) |
 | Output | Same `cli_anything.*` namespace packages |
-
-📖 [中文文档](README_CN.md)
 
 ## License
 

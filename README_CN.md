@@ -1,6 +1,6 @@
 # cli-everything
 
-> **致谢**：本项目受 Anthropic 的 [cli-anything](https://github.com/anthropics/cli-anything) 启发并在其基础上扩展。cli-anything 为开源 GUI 应用生成 CLI 接口，cli-everything 则将同样的理念延伸到闭源网站。生成的包共享 `cli_anything.*` 命名空间（PEP 420）。
+> **致谢**：本项目受 HKU 的 [CLI-Anything](https://github.com/HKUDS/CLI-Anything) 启发并在其基础上扩展。CLI-Anything 为开源 GUI 应用生成 CLI 接口，cli-everything 则将同样的理念延伸到闭源网站。生成的包共享 `cli_anything.*` 命名空间（PEP 420）。
 
 📖 [English](README.md)
 
