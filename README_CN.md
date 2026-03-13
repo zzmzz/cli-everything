@@ -14,13 +14,34 @@
 
 生成的 CLI 包可通过 pip 安装，使用 Click 命令，支持 `--json` 输出。
 
+## 安装
+
+### 前置要求
+
+- 已安装 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI
+- Python 3.8+
+- Google Chrome
+
+### 安装插件
+
+```bash
+# 克隆仓库
+git clone https://github.com/zzmzz/cli-everything.git
+
+# 安装 Python 依赖
+cd cli-everything
+pip install websocket-client requests
+
+# 注册为 Claude Code 插件
+claude plugin add /path/to/cli-everything
+```
+
+安装完成后，即可在 Claude Code 中使用 `/cli-everything` 命令。
+
 ## 快速开始
 
 ```bash
-# 1. 安装依赖
-pip install websocket-client
-
-# 2. 在 Claude Code 中运行插件命令
+# 在 Claude Code 中运行插件命令
 /cli-everything https://www.meican.com/ --tasks "login, view menu, place order"
 ```
 

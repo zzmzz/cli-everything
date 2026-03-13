@@ -12,13 +12,34 @@ While **cli-anything** builds CLI interfaces for open-source applications by rea
 
 The generated CLI packages are installable via pip, using Click commands, with `--json` output support.
 
+## Installation
+
+### Prerequisites
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI installed
+- Python 3.8+
+- Google Chrome
+
+### Install the plugin
+
+```bash
+# Clone the repo
+git clone https://github.com/zzmzz/cli-everything.git
+
+# Install Python dependencies
+cd cli-everything
+pip install websocket-client requests
+
+# Register as a Claude Code plugin
+claude plugin add /path/to/cli-everything
+```
+
+After installation, the `/cli-everything` command will be available in Claude Code.
+
 ## Quick Start
 
 ```bash
-# 1. Install dependencies
-pip install websocket-client
-
-# 2. In Claude Code, run the plugin command
+# In Claude Code, run the plugin command
 /cli-everything https://www.meican.com/ --tasks "login, view menu, place order"
 ```
 
