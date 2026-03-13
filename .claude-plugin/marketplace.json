@@ -1,0 +1,17 @@
+{
+  "name": "cli-everything",
+  "owner": {
+    "name": "cli-everything contributors"
+  },
+  "plugins": [
+    {
+      "name": "cli-everything",
+      "source": "./cli-everything-plugin",
+      "description": "Analyze closed-source websites and generate CLI harnesses via API reverse-engineering.",
+      "author": {
+        "name": "cli-everything contributors"
+      },
+      "category": "development"
+    }
+  ]
+}

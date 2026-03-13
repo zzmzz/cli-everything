@@ -1,0 +1,7 @@
+{
+  "name": "cli-everything",
+  "description": "Record user browser sessions via Chrome CDP, reverse-engineer website APIs, and generate CLI harnesses.",
+  "author": {
+    "name": "cli-everything contributors"
+  }
+}
